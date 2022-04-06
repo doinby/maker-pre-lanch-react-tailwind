@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
+
+@layer base {
+    html {
+        background: theme('colors.black');
+        color: theme('colors.white');
+    }
+}
+
+@layer components {
+    header, footer, section {
+        @apply container mx-auto my-24;
+    }
+    
+    h1, h2, h3, h4 {
+        @apply font-bold;
+    }
+    
+    h1 {
+        @apply text-[48px];
+    }
+    
+    h2 {
+        @apply text-[40px];
+    }
+    
+    h3 {
+        @apply text-[32px];
+    }
+    
+    h4 {
+        @apply text-[18px];
+    }
+
+    button {
+        @apply px-6 py-3 rounded-full bg-primary text-black;
+    }
+
+    button:hover, button:active {
+        @apply border-2 border-primary bg-black text-white;
+    }
+}

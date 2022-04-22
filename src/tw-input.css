@@ -9,6 +9,9 @@
         background: theme('colors.black');
         color: theme('colors.white');
     }
+    body {
+        @apply text-body font-body;
+    }
 }
 
 @layer components {
@@ -21,19 +24,19 @@
     }
     
     h1 {
-        @apply text-[48px];
+        @apply text-h1;
     }
     
     h2 {
-        @apply text-[40px];
+        @apply text-h2;
     }
     
     h3 {
-        @apply text-[32px];
+        @apply text-h3;
     }
     
     h4 {
-        @apply text-[18px];
+        @apply text-h4;
     }
 
     button {

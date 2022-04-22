@@ -426,6 +426,12 @@ html {
   color: #FFFFFF;
 }
 
+body {
+  font-family: Manrope, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -552,18 +558,22 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 48px;
+  line-height: 56px;
 }
 
 h2 {
   font-size: 40px;
+  line-height: 55px;
 }
 
 h3 {
   font-size: 32px;
+  line-height: 44px;
 }
 
 h4 {
   font-size: 18px;
+  line-height: 25px;
 }
 
 button {
@@ -588,6 +598,10 @@ button:hover, button:active {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.bg-illustration-hero-left {
+  background-image: url('../images/illustration-hero-left.svg');
+}
+
 .text-center {
   text-align: center;
 }
@@ -595,6 +609,15 @@ button:hover, button:active {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(62 233 229 / var(--tw-text-opacity));
+}
+
+.text-gray {
+  --tw-text-opacity: 1;
+  color: rgb(119 127 152 / var(--tw-text-opacity));
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap')
